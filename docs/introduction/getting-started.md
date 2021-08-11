@@ -4,16 +4,16 @@
 
 ---
 
-As with any compiled language, you need a proper set of tools to compile, run and debug your Move applications. Since this language is created for blockchains and used only within them, running scripts off-chain is a non-trivial task: every module will require an environment, account handling and compile-publishing system.
+Herhangi bir derlenmiş dilde olduğu gibi, Move uygulamalarınızı derlemek, çalıştırmak ve hatalarını ayıklamak için uygun bir araç setine ihtiyacınız vardır. Bu dil blok zincirler geliştirmek için oluşturulduğundan ve yalnızca bunların içinde kullanıldığından, komut dosyalarını zincir dışı çalıştırmak önemsiz bir görevdir: her modül bir ortam, hesap işleme ve derleme-yayınlama sistemi gerektirir.
 
-To simpify development of Move modules I've created [Move IDE](https://github.com/damirka/vscode-move-ide) extension for Visual Studio Code. This extension will help you cope with environment requirements. Use of this extension is highly recommended as it will handle the build/run environment for you, hence will let you focus on learning Move language instead of struggling with the CLI. This extension also includes Move syntax highlighting and executor to help debug your applications before going public.
+Move modüllerinin geliştirilmesini basitleştirmek için Visual Studio Code için [Move IDE Uzantısı](https://github.com/damirka/vscode-move-ide) oluşturdum. Bu uzantı, ortam gereksinimleriyle başa çıkmanıza yardımcı olacaktır. Bu uzantının kullanılması, sizin için inşa/çalıştır ortamını idare edeceğinden şiddetle tavsiye edilir, bu nedenle CLI ile uğraşmak yerine Move dilini öğrenmeye odaklanmanıza izin verir. Bu uzantı ayrıca, uygulamalarınızın genel kullanıma sunulmadan önce hatalarının ayıklanmasına yardımcı olmak için sözdizimi vurgulamayı ve yürütücüyü içerir.
 
-## Install Move IDE
+## Move IDE Yüklenmesi
 
-To install it you'll need:
+Yüklemek için aşağıdakilere ihtiyacınız olacak:
 
-1. VSCode (version 1.43.0 and above) - you can [get it here](https://code.visualstudio.com/download); if you already have one - proceed to the next step;
-2. Move IDE - once VSCode is installed, follow [this link](https://marketplace.visualstudio.com/items?itemName=damirka.move-ide) to install the newest version of IDE.
+1. VSCode (version 1.43.0 and above) - [buradan indirebilirsiniz](https://code.visualstudio.com/download); eğer zaten indirdiyseniz burayı görmezden gelin
+2. Move IDE - VSCode yüklendikten sonra, [buradan indirebilirsiniz](https://marketplace.visualstudio.com/items?itemName=damirka.move-ide) IDE'nin en güncel versiyonunu kullandığınızdan emin olun.
 
 ### Setup environment
 
