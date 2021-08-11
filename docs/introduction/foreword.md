@@ -1,12 +1,12 @@
-# Foreword
+# Önsöz
 
-When I wrote this book, there was no documentation (or other reference) on Move language and the goal I pursued was to give people a chance to see hidden gem of crypto world - the Move language. Currently, [there is a Move documentation](https://developers.diem.com/docs/move/overview) written by language developers. Yet I still think that flow given in this book is more intuitive and more friendly for a newcomer, I once was a newcomer too and Move is one tricky and interesting language some concepts of which might be mind-blowing.
+Bu kitabı yazdığımda, Move diliyle ilgili herhangi bir belge (veya başka bir referans) yoktu. Amacım insanlara kripto dünyasının gizli mücevheri olan Move dilini görme şansı vermekti. the Move language. Artık, geliştiriciler için [bir kaynağımız var](https://developers.diem.com/docs/move/overview) .Yine de bu kitapta verilen akışın yeni başlayanlar için daha amatörce ve sohbet dilinde olduğunu düşünüyorum, bir zamanlar ben de yeniydim ve Move, bazı kavramları akıllara durgunluk verebilecek zor ve ilginç bir dil.
 
-I deeply love this language and hope you'll see why!
+Bu dili çok seviyorum ve nedenini anlayacağını umuyorum!
 
-\- Damir Shamanaev
+- Damir Shamanaev
 
-*The book was started when I was working at [dfinance](https://dfinance.co).*
+*Kitap, ben [dfinance](https://dfinance.co) için çalışırken başladı.
 
 
 <!-- It's been few months since we at [dfinance](https://dfinance.co) started using Libra's Move VM and Move language. Before that we worked a lot with blockchains \(and smart contracts specifically\): you may know our [Wings.ai](http://wings.ai) project - once the biggest dApp on ETH network; and we - better than many - know how hard it can be for a newcomer to work with new blockchain language, especially Rust-like, especially when blockchain environments and infrastructure challenges come to play.
